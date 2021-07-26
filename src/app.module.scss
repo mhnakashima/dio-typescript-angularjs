@@ -1,0 +1,25 @@
+// global styles
+@import './../node_modules/bootstrap/dist/css/bootstrap';
+@import './../node_modules/tachyons/css/tachyons';
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap');
+@import 'reset-css';
+
+body {
+    background: #fefefe;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.image {
+    @media screen and (max-width: 30em) {
+        width: 3em;
+    }
+
+    @media screen and (min-width: 30em) {
+        width: 5em;
+    }
+}
+
+
+.navbar {
+    background: rgba(2, 7, 37, 0.8);
+}
