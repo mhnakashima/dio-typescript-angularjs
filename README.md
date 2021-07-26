@@ -6,7 +6,7 @@ Creating a Project using AngularJS and Typescript
 - npm run dev
 
 
-# ######## Exercises #########
+# - Exercises -
 - Add no results
 - Add a component
 - Create a Coin Class
